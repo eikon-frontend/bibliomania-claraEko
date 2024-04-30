@@ -1,17 +1,119 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <div class="haut">
+    <div class="vfonce"></div>
+  </div>
+  <div class="tout">
+    <div class="livrecouv">
+      <img src="img/couvertures/saccage_couverture.jpg" alt="">
+    </div>
+    <div class="fblanc">
+      <div class="espace">
+
+      </div>
+      <div class="contenu">
+
+        <div class="titrel">
+          <h1>SACCAGE</h1>
+          Frederik Peeters
+        </div>
+        <div class="note"> 4,5/5 </div>
+        <hr>
+        <h4>Détails du livre</h4>
+        <div class="detlivre">
+          <div class="det">Editeur Atrabile </div>
+          <div class="det">Date mars 2019 </div>
+          <div class="det"> Nombre de pages 96 </div>
+
+          <h2>Description</h2>
+          <p>"Saccage", de Frederik Peeters, est un roman graphique captivant qui plonge le lecteur dans un univers
+            post-apocalyptique troublant. À travers des illustrations saisissantes et une narration immersive, l'auteur
+            nous
+            entraîne dans un monde ravagé par une mystérieuse catastrophe. Au cœur de ce chaos, les protagonistes
+            luttent
+            pour
+            leur survie, confrontés à des dangers insoupçonnés et à des dilemmes moraux poignants. Peuplé de personnages
+            complexes et de paysages désolés, "Saccage" offre une expérience de lecture intense et inoubliable,
+            explorant
+            les
+            thèmes de la résilience, de la survie et de l'humanité face à l'adversité.
+          </p>
+          <hr>
+          <h2>Avis et Notes</h2>
+          <div class="note">4,5/5 </div>
+
+          129 votes
+          + Ajuter une Note
+
+          <h2>Commentaires</h2>
+          <div class="com">
+            <div class="pseudo"> @louis.gaudreau_78 </div>
+            <div class="titrecom"> Magnifique histoire ! </div>
+            <div class="comtext">
+              <p>Ce livre de fantasy fictif offre une escapade envoûtante dans un monde magique et complexe. Les
+                personnages
+                vibrants et l'intrigue captivante se marient parfaitement avec les thèmes profonds explorés. Une lecture
+                incontournable pour tout amateur d'aventure et de magie.
+              </p>
+            </div>
+          </div>
+
+          <div class="com">
+            <div class="pseudo"> @jeanbono65</div>
+            <div class="titrecom"> Quelle désastre !</div>
+            <div class="comtext">
+              <p>"Saccage", de Frederik Peeters, dépeint un monde post-apocalyptique sans éclat ni originalité, où les
+                clichés
+                abondent et l'intrigue peine à captiver. Une lecture décevante pour ceux en quête d'originalité et de
+                profondeur
+                dans le genre.
+              </p>
+            </div>
+          </div>
+
+          <div class="com">
+            <div class="pseudo">@david.marechala</div>
+            <div class="titrecom"> époustouflant !</div>
+            <div class="comtext">
+              <p>C’est une œuvre remarquable qui transporte le lecteur dans un monde post-apocalyptique d'une richesse
+                visuelle
+                et
+                émotionnelle époustouflante. L'auteur parvient à créer une atmosphère immersive et captivante.</p>
+            </div>
+          </div>
+          + Ajouter un commentaire
+          <div>
+            voir plus...
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
         <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
@@ -21,12 +123,14 @@
             <option value="1">Terrible</option>
         </select>
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: "Choisissez votre note",
+    });
+  </script>
+
+</body>
+
 </html>
