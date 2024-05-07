@@ -2,7 +2,7 @@
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 24px;
+  --gl-star-size: 25px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
   --gl-tooltip-font-weight: 400;
@@ -13,3 +13,271 @@
 }
 
 /* 🦊 Vos styles ici */
+
+body {
+  background-color: #5f6CB0;
+  margin: 0%;
+}
+
+
+.haut {
+  background-color: #545196;
+  max-width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom-right-radius: 120px;
+
+
+}
+
+.fleche {
+  width: 36px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+  color: #545196;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+  color: #545196;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+  color: #545196;
+  margin-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.contenu {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.fblanc {
+
+  background-color: #ffff;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  height: 2150px;
+  margin-top: -200px;
+
+}
+
+.etoile {
+  display: flex;
+  justify-content: right;
+}
+
+hr {
+  background-color: #545196;
+  height: 0.5px;
+}
+
+
+
+.espace {
+  height: 220px;
+  width: 300px;
+
+}
+
+
+
+.livrecouv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.livrecouv img {
+  width: 268px;
+  height: 365px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0px 15px 30px grey;
+
+}
+
+.detlivre {
+  display: flex;
+  flex-direction: column;
+  color: hsl(243, 30%, 45%);
+  font-size: 13px;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.det {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -45px;
+}
+
+.note {
+  display: flex;
+  justify-content: right;
+  font-size: 32px;
+  color: #545196;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+  font-size: 15px;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.tout {
+  margin-top: -100px;
+}
+
+.graphique {
+
+  max-width: 55%;
+}
+
+.comtext {
+  background-color: #E9E9E9;
+  border-radius: 20px;
+  height: 160px;
+
+}
+
+.text {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.notation {
+
+  color: #545196;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+  margin-top: 7px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  ;
+
+
+
+
+}
+
+.plus {
+  font-size: 29px;
+  ;
+  margin-top: -11px;
+  margin-right: 5px;
+
+}
+
+.texno avis {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+
+
+
+}
+
+.avis {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.pdp {
+  max-width: 60px;
+  margin-bottom: -10px;
+}
+
+.infp {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  color: #545196;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tpc {
+  margin-left: -25px;
+  text-align: left;
+}
+
+
+.pseudo {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.com {
+  margin-bottom: 25px;
+}
+
+.fi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #545196;
+
+}
+
+.vp {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #E35855;
+  border-top-right-radius: 80px;
+  box-shadow: 15px 0px 30px grey;
+  max-width: 100%;
+  height: 120px;
+  margin-top: 20px;
+
+
+}
+
+.imf {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+.fo {
+  width: 40px;
+  margin-top: 30px;
+}
+
+.foter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

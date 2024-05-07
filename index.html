@@ -1,32 +1,256 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <div class="haut">
+    <div class="vfonce">
+      <div class="fleche">
+        <img src="img/fleche.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="tout">
+    <div class="livrecouv">
+      <div class="graphique"><img src="img/couvertures/saccage_couverture.jpg" alt=""></div>
+    </div>
+    <div class="fblanc">
+      <div class="espace">
+
+      </div>
+      <div class="contenu">
+
+        <div class="titrel">
+          <h1>SACCAGE</h1>
+          <p>Frederik Peeters </p>
+        </div>
+        <div class="etoile">
+          <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
             <option value="4">Very Good</option>
             <option value="3">Average</option>
             <option value="2">Poor</option>
             <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+          </select>
+
+          <!-- 💡 Script pour gérer le rating d'un livre -->
+          <script src="scripts/star-rating.min.js"></script>
+          <script>
+            var stars = new StarRating(".star-rating", {
+              tooltip: false
+            });
+          </script>
+        </div>
+
+        <div class="note"> <strong>4,5</strong>/5 </div>
+
+
+
+
+
+        <hr>
+
+        <h3>Détails du livre</h3>
+        <div class="detlivre">
+          <p>
+          <div class="det"><strong>Editeur</strong> Atrabile </div>
+          </p>
+          <p>
+          <div class="det"><strong>Date </strong> mars 2019 </div>
+          </p>
+          <p>
+          <div class="det"> <strong>Nombres de pages</strong> 96 </div>
+          </p>
+        </div>
+        <h2>Description</h2>
+        <p>"Saccage", de Frederik Peeters, est un roman graphique captivant qui plonge le lecteur dans un univers
+          post-apocalyptique troublant. À travers des illustrations saisissantes et une narration immersive, l'auteur
+          nous
+          entraîne dans un monde ravagé par une mystérieuse catastrophe. Au cœur de ce chaos, les protagonistes
+          luttent
+          pour
+          leur survie, confrontés à des dangers insoupçonnés et à des dilemmes moraux poignants. Peuplé de personnages
+          complexes et de paysages désolés, "Saccage" offre une expérience de lecture intense et inoubliable,
+          explorant
+          les
+          thèmes de la résilience, de la survie et de l'humanité face à l'adversité.
+        </p>
+        <hr>
+        <h2>Avis et Notes</h2>
+        <div class="avis">
+          <div class="graphique"><img src="img/graphique.png" alt=""></div>
+          <div class="texno">
+            <div class="note"><strong>4,5</strong>/5 </div>
+            <div class="toutn">
+              <div class="notation">129 votes </div>
+              <div class="notation">
+                <div class="plus">+</div> Ajuter une Note
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Commentaires</h2>
+        <div class="com">
+          <div class="infp">
+            <div class="pdp"><img src="img/pdp.png" alt=""></div>
+            <div class="tp">
+              <div class="pseudo"> @louis.gaudreau_78</div>
+              <div class="titrecom"> Magnifique histoire !</div>
+            </div>
+            <div class="etoilep">
+              <select class="star-rating" aria-label="Note utilisateur">
+                <option value="">Select a rating</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Average</option>
+                <option value="2">Poor</option>
+                <option value="1">Terrible</option>
+              </select>
+
+              <!-- 💡 Script pour gérer le rating d'un livre -->
+              <script src="scripts/star-rating.min.js"></script>
+              <script>
+                var stars = new StarRating(".star-rating", {
+                  tooltip: false
+                });
+              </script>
+            </div>
+          </div>
+          <div class="comtext">
+
+            <div class="text">
+              <p>Ce livre de fantasy fictif offre une escapade envoûtante dans un monde magique et complexe. Les
+                personnages
+                vibrants et l'intrigue captivante se marient parfaitement avec les thèmes profonds explorés. Une lecture
+                incontournable pour tout amateur d'aventure et de magie.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="com">
+          <div class="infp">
+            <div class="pdp"><img src="img/pdp.png" alt=""></div>
+            <div class="tpc">
+              <div class="pseudo"> @jeanbono65</div>
+              <div class="titrecom"> Quelle désastre !</div>
+            </div>
+            <div class="etoilep">
+              <select class="star-rating" aria-label="Note utilisateur">
+                <option value="">Select a rating</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Average</option>
+                <option value="2">Poor</option>
+                <option value="1">Terrible</option>
+              </select>
+
+              <!-- 💡 Script pour gérer le rating d'un livre -->
+              <script src="scripts/star-rating.min.js"></script>
+              <script>
+                var stars = new StarRating(".star-rating", {
+                  tooltip: false
+                });
+              </script>
+            </div>
+          </div>
+          <div class="comtext">
+
+            <div class="text">
+              <p>"Saccage", de Frederik Peeters, dépeint un monde post-apocalyptique sans éclat ni originalité, où les
+                clichés
+                abondent et l'intrigue peine à captiver. Une lecture décevante pour ceux en quête d'originalité et de
+                profondeur
+                dans le genre.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="com">
+          <div class="infp">
+            <div class="pdp"><img src="img/pdp.png" alt=""></div>
+            <div class="tpc">
+              <div class="pseudo"> @david.marechal</div>
+              <div class="titrecom"> époustouflant !</div>
+            </div>
+            <div class="etoilep">
+              <select class="star-rating" aria-label="Note utilisateur">
+                <option value="">Select a rating</option>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Average</option>
+                <option value="2">Poor</option>
+                <option value="1">Terrible</option>
+              </select>
+
+              <!-- 💡 Script pour gérer le rating d'un livre -->
+              <script src="scripts/star-rating.min.js"></script>
+              <script>
+                var stars = new StarRating(".star-rating", {
+                  tooltip: false
+                });
+              </script>
+            </div>
+          </div>
+          <div class="comtext">
+
+            <div class="text">
+              <p>C’est une œuvre remarquable qui transporte le lecteur dans un monde post-apocalyptique d'une richesse
+                visuelle
+                et
+                émotionnelle époustouflante. L'auteur parvient à créer une atmosphère immersive et captivante.</p>
+            </div>
+          </div>
+        </div>
+        <div class="fi">
+          <div>
+            + Ajouter un commentaire</div>
+          <div class="vp">
+            voir plus...
+          </div>
+        </div>
+
+      </div>
+      <div class="foter">
+        <div class="footer">
+
+          <div class="imf">
+
+            <div class="fo"><img src="img/maison.png" alt=""></div>
+            <div class="fo"> <img src="img/colection.png" alt=""></div>
+            <div class="fo"><img src="img/loupe.png" alt=""></div>
+            <div class="fo"><img src="img/profile.png" alt=""></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+
+</body>
+
 </html>

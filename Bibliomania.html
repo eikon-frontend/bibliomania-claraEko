@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="./Bibliomania_files/star-rating.min.css">
+  <link rel="stylesheet" href="./Bibliomania_files/styles.css">
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <div class="haut">
+    <div class="vfonce"></div>
+  </div>
+  <div class="livrecouv">
+    <img src="./Bibliomania_files/saccage_couverture.jpg" alt="">
+  </div>
+  <div class="fblanc">
+    <h1>SACCAGE</h1>
+    Frederik Peeters
+    <div class="note"> 4,5/5 </div>
+    <hr>
+    <h4>Détails du livre</h4>
+    <div class="det livre">Editeur </div>
+    <div class="det livre">Atrabile</div>
+    <div class="det livre">Date </div>
+    <div class="det livre">mars 2019</div>
+    <div class="det livre">Nombre de pages</div>
+    <div class="det livre">96 </div>
+
+    <h2>Description</h2>
+    <p>"Saccage", de Frederik Peeters, est un roman graphique captivant qui plonge le lecteur dans un univers
+      post-apocalyptique troublant. À travers des illustrations saisissantes et une narration immersive, l'auteur nous
+      entraîne dans un monde ravagé par une mystérieuse catastrophe. Au cœur de ce chaos, les protagonistes luttent pour
+      leur survie, confrontés à des dangers insoupçonnés et à des dilemmes moraux poignants. Peuplé de personnages
+      complexes et de paysages désolés, "Saccage" offre une expérience de lecture intense et inoubliable, explorant les
+      thèmes de la résilience, de la survie et de l'humanité face à l'adversité.
+    </p>
+    <hr>
+    <h2>Avis et Notes</h2>
+    <div class="note">4,5/5 </div>
+
+    129 votes
+    + Ajuter une Note
+
+    <h2>Commentaires</h2>
+    <div class="com">
+      <div class="pseudo"> @louis.gaudreau_78 </div>
+      <div class="titrecom"> Magnifique histoire ! </div>
+      <div class="comtext">
+        <p>Ce livre de fantasy fictif offre une escapade envoûtante dans un monde magique et complexe. Les personnages
+          vibrants et l'intrigue captivante se marient parfaitement avec les thèmes profonds explorés. Une lecture
+          incontournable pour tout amateur d'aventure et de magie.
+        </p>
+      </div>
+    </div>
+
+    <div class="com">
+      <div class="pseudo"> @jeanbono65</div>
+      <div class="titrecom"> Quelle désastre !</div>
+      <div class="comtext">
+        <p>"Saccage", de Frederik Peeters, dépeint un monde post-apocalyptique sans éclat ni originalité, où les clichés
+          abondent et l'intrigue peine à captiver. Une lecture décevante pour ceux en quête d'originalité et de
+          profondeur
+          dans le genre.
+        </p>
+      </div>
+    </div>
+
+    <div class="com">
+      <div class="pseudo">@david.marechala</div>
+      <div class="titrecom"> époustouflant !</div>
+      <div class="comtext">
+        <p>C’est une œuvre remarquable qui transporte le lecteur dans un monde post-apocalyptique d'une richesse
+          visuelle
+          et
+          émotionnelle époustouflante. L'auteur parvient à créer une atmosphère immersive et captivante.</p>
+      </div>
+    </div>
+
+    + Ajouter un commentaire voir plus...
+  </div>
+
+
+
+
+
+
+
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
+        <select class="star-rating" aria-label="Note utilisateur">
+            <option value="">Select a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Terrible</option>
+        </select>
+    -->
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="./Bibliomania_files/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: "Choisissez votre note",
+    });
+  </script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
